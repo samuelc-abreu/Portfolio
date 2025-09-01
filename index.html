@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Samuel Abreu | Portfolio</title>
+        <meta name="description" content="Portfolio do dev Samuel Abreu para compartilhar projetos e habilidades desenvolvidas.">
+        
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="assets/CSS/style.css">
+    </head>
+    <body>  
+        <header class="header">
+            <nav class="header__nav">
+                <ul class="menu menu--principal">
+                    <li class="menu__item">
+                        <a class="menu__link active" href= "#sobreMim">
+                            <span class="menu__text">Sobre</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href= "#formacao">
+                            <span class="menu__text">Formação</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href= "#portfolio">
+                            <span class="menu__text">Portfólio</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href= "#contato">
+                            <span class="menu__text">Contato</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__brand"> 
+                <img class="brand__logo" src="assets/images/logo.png" alt="Logo terminal">
+            </div>    
+        
+            <div class="header__toggle">
+                <img id="toggleTheme" class="sun" src="assets/images/sun.svg" alt="sun">
+            </div>
+        </header>
+        <nav class="nav--mobile">
+            <ul class="menu menu--mobile">
+                <li class="menu__item">
+                    <a class="menu__link active" href= "#sobreMim">
+                        <span class="menu__text">Sobre</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href= "#formacao">
+                        <span class="menu__text">Formação</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href= "#portfolio">
+                        <span class="menu__text">Portfólio</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href= "#contato">
+                        <span class="menu__text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section class="main__content" id="sobreMim">
+                <div class="section_content">
+                   <div class="title">
+                        <p>Olá, eu sou</p>
+                        <h1>Samuel Abreu :) </h1>
+                    </div> 
+                    <p>
+                        Estudante de Análise e Desenvolvimento de Sistemas pela Uninter, atualmente focado em banco de dados e desenvolvimento de software. Meu interesse por tecnologia começou durante um curso técnico, onde tive o primeiro contato com HTML, CSS e JavaScript. Desde então, venho me aprofundando na área e buscando evoluir constantemente.
+                    </p><br>
+                    <p>
+                        Tenho grande afinidade com Linux, explorando diferentes distribuições e adaptando meu ambiente de trabalho de acordo com as necessidades dos meus estudos e projetos.
+                    </p><br>
+                    <p>
+                        Além da área acadêmica, sou entusiasta de jogos clássicos e RPGs, que despertaram em mim curiosidade por sistemas, lógica e interação digital. Hoje, aplico essa mesma curiosidade no desenvolvimento de soluções práticas e no aprendizado contínuo.
+                    </p>
+                    <img class="ascii" src="assets/images/Made with insMind-powershellascii.png" alt="powershell em ascii art">
+                </div>
+            </section>
+
+            <section class="main__content" id="formacao">
+                <div class="section_content">
+                    <h2>Formação</h2>
+                    <p>
+                        Atualmente, sou estudante de Análise e Desenvolvimento de Sistemas, curso que me proporciona uma base sólida em lógica de programação, bancos de dados, engenharia de software e desenvolvimento de aplicações web. No dia a dia do curso, tenho contato com linguagens como HTML, CSS, JavaScript e Python, além de usar Git e GitHub pra versionar meus projetos e praticar um pouco de metodologias ágeis.
+                    </p><br>
+                    <p>
+                        Mais do que só código, o curso me ajuda a desenvolver a forma de pensar soluções criativas para problemas e também a trabalhar em equipe, algo super importante no mercado.
+                    </p><br>
+                    <p>
+                        Minha língua nativa é o português, e estou sempre me virando no inglês técnico pra acompanhar documentações, cursos e materiais da área.
+                    </p><br>
+                    <img class="ascii2" src="assets/images/ASCII-Art-removebg-preview.png" alt="ascii art">
+                </div>
+            </section>
+
+            <section class="main__content" id="portfolio">
+                 <div class="section_content">
+                     <h2>Portfólio</h2>
+                    <div  class="projetos">
+                         <a href="https://samuelc-abreu.github.io/QR-Code-Component-Frontend-Mentor/" target="_blank">
+                            <img src="assets/images/projeto1.jpg" alt="imagem projeto 1">
+                        </a>
+                        <p>
+                           Projeto feito como parte do desafio QR Code Component do site Frontend Mentor. A ideia aqui era criar um componente simples com um QR code, usando só HTML e CSS. 
+                        </p>
+                    </div>
+                    <div class="projetos">
+                        <a href="#">
+                            <img src="assets/images/projeto2.jpeg" alt="novos projetos em breve">
+                        </a>
+                        <p>
+                            Novos projetos em breve.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="main__content" id="contato" >
+                <div class="section_content">
+                    <h2 >Contato</h2>
+                    <form>
+                        <div>
+                            <label for="nome" >Nome</label>
+                            <input type="text" id="nome">
+                        </div>
+                        <div>
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div>
+                            <label for="comentarios">Comentarios</label><br>
+                            <textarea name="comentario" id="comentario" rows="20" cols="50"></textarea>
+                        </div>
+                        <div class="icon-redeS">
+                            <a href="https://github.com/samuelc-abreu" target="_blank">
+                                <img src="assets/images/github.svg" alt="github" width="50px" height="50px">
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/samuel-abreu-8543a9171/" target="_blank">
+                                <img src="assets/images/linkedin.svg" alt="linkedin" width="50px" height="50px">
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>
+                © 2025. Todos os Direitos Reservados. Desenvolvido por <a href="https://github.com/samuelc-abreu">Samuel Abreu</a>.
+            </p>
+        </footer>
+        <script src="assets/JS/scripts.js"></script>
+    </body>
+</html>
